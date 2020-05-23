@@ -1,0 +1,16 @@
+{% extends 'app/base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+    <h3 class="mt-5">Select district</h3>
+    <form method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button type="submit" class="btn btn-primary">Go!</button>
+    </form>
+    <h4 class="mt-5">Showing predictions for {{ form.district.value }}...</h4>
+
+
+{% endblock %}
