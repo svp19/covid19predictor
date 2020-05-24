@@ -1,15 +1,14 @@
 from django.shortcuts import render
 from .forms import PredictForm
+from .regions import DISTRICT_CHOICES, STATES
 
 
 # Create your views here.
 def home(request):
     context = dict()
-    context['form'] = PredictForm()
+    context['states'] = STATES
     if request.method == 'POST':
-        form = PredictForm(request.POST)
-        if form.is_valid():
-            context['predict'] = "Yes"
-            context['form'] = form
-            return render(request, 'app/home.html', context)
+        context["predict"] = True
+        context["state"] = request.POST.get('state-input')
+        return render(request, 'app/home.html', context)
     return render(request, 'app/home.html', context)
