@@ -1,10 +1,9 @@
 import pandas as pd
 import numpy as np
 
-
 def read_dataset():
     # Read Dataset
-    df = pd.read_csv('../datasets/modified/features_v2.csv', index_col=0)
+    df = pd.read_csv('app/datasets/modified/features_v2.csv', index_col=0)
     df = df.dropna()
 
     ## Remove Districts with less than 7 days data

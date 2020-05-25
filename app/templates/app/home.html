@@ -8,6 +8,15 @@
     <h2 class="mt-5">CDAC SAMHAR CoVID-19 Hackathon, Team <span>Delta</span></h2>
     {% if predict %}
         <h4>Showing predictions for <span>{{ state }}</span></h4>
+        <table>
+        {% for p in predictions %}
+        <tr>
+             <td></td>
+             <td></td>
+             <td>{{ p }}</td>
+         </tr>
+        </table>
+        {%  endfor %}
     {% else %}
         <h4 class="mt-5">Please select a state for which cases have to be predicted</h4>
         <form autocomplete="off" method="post">
