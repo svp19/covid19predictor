@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="851c10ca-2723-48a6-b604-37871a3ac497" name="Default Changelist" comment="" />
+    <list default="true" id="851c10ca-2723-48a6-b604-37871a3ac497" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid19predictor/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19predictor/settings.py" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +75,7 @@
           <entry key="dummy" value="14" />
           <entry key="html" value="517" />
           <entry key="js" value="93" />
-          <entry key="py" value="661" />
+          <entry key="py" value="703" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -81,7 +84,7 @@
           <entry key="HTML" value="517" />
           <entry key="JavaScript" value="93" />
           <entry key="PLAIN_TEXT" value="49" />
-          <entry key="Python" value="661" />
+          <entry key="Python" value="703" />
         </counts>
       </usages-collector>
     </session>
@@ -91,7 +94,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/covid19predictor/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270" />
+            <state relative-caret-position="283">
+              <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+              <folding>
+                <element signature="e#317#326#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -155,8 +163,8 @@
         <option value="$PROJECT_DIR$/settings/__init__.py" />
         <option value="$PROJECT_DIR$/app/templates/app/base.html" />
         <option value="$PROJECT_DIR$/covid19predictor/wsgi.py" />
-        <option value="$PROJECT_DIR$/covid19predictor/settings.py" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/covid19predictor/settings.py" />
       </list>
     </option>
   </component>
@@ -266,6 +274,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24318182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -393,7 +402,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/covid19predictor/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270" />
+        <state relative-caret-position="283">
+          <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="31" />
+          <folding>
+            <element signature="e#317#326#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
