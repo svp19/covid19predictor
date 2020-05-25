@@ -1,4 +1,4 @@
-#!/home/svp/GitHub/covid19predictor/venv/bin/python
+#!/home/anudeep/Desktop/Development/DL/covid19hackathon/covid19predictor/venv/bin/python
 
 # -*- coding: utf-8 -*-
 import re

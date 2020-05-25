@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/svp/GitHub/covid19predictor/venv"
+VIRTUAL_ENV="/home/anudeep/Desktop/Development/DL/covid19hackathon/covid19predictor/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
