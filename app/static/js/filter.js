@@ -50,7 +50,7 @@ inputField.addEventListener('focus', () => {
 });
 
 inputField.addEventListener('blur', () => {
-   inputField.placeholder = 'Select state';
+   inputField.placeholder = 'Select district';
   dropdown.classList.remove('open');
 });
 

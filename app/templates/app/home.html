@@ -4,33 +4,50 @@
 
 {% block content %}
 
-    <h1 class="mt-5"><span>CoVID-19</span> Predictor India</h1>
-    <h2 class="mt-5">CDAC SAMHAR CoVID-19 Hackathon, Team <span>Delta</span></h2>
+    <h1 class="mt-5"><span>covid-19</span> predictor india</h1>
+    <h2 class="mt-5">CDAC SAMHAR COVID-19 hackathon, team <span>delta</span></h2>
     {% if predict %}
-        <h4>Showing predictions for <span>{{ state }}</span></h4>
-        <table>
-        {% for p in predictions %}
-        <tr>
-             <td></td>
-             <td></td>
-             <td>{{ p }}</td>
-         </tr>
+        <h4>showing predictions for <span>{{ state }}</span></h4>
+        <table class="my-5 table table-hover table-light">
+
+            <thead>
+            <tr>
+                <th scope="col">Sl No.</th>
+                <th scope="col">Date</th>
+                <th scope="col"># Confirmed Cases</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for row in predictions %}
+                <tr>
+                    <th scope="row">{{ row.0 }}</th>
+                    <td>{{ row.1 }}</td>
+                    <td>{{ row.2 }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
         </table>
-        {%  endfor %}
+        <a href="{% url 'home' %}">
+            <button type="button" class="btn btn-light">Go Back</button>
+        </a>
+
     {% else %}
-        <h4 class="mt-5">Please select a state for which cases have to be predicted</h4>
+
+        <h4 class="mt-5">please select a state for which cases have to be predicted</h4>
         <form autocomplete="off" method="post">
             {% csrf_token %}
             <input id="state-input" name="state-input" class="chosen-value" type="text" value=""
-                   placeholder="Type to filter">
+                   placeholder="type to filter">
             <ul class="value-list">
                 {% for state in states %}
                     <li>{{ state }}</li>
                 {% endfor %}
 
             </ul>
-            <button type="submit" class="btn btn-light">Predict</button>
+            <button type="submit" class="btn btn-light">predict</button>
         </form>
+
     {% endif %}
+
 
 {% endblock %}

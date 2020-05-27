@@ -2,11 +2,171 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="851c10ca-2723-48a6-b604-37871a3ac497" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/districts.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/districts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/ahmedabad.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/ambala.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/anand.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/anantapur.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/anantnag.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/aurangabad.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/bagalkote.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/ballari.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/banaskantha.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/bandipora.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/baramulla.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/begusarai.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/belagavi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/bengalururural.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/bengaluruurban.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/bhagalpur.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/bharuch.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/bhavnagar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/bhiwani.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/bhojpur.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/bidar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/bilaspur.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/bokaro.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/budgam.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/buxar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/cachar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/centraldelhi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/chamba.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/chandigarh.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/chikkaballapura.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/chittoor.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/dahod.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/dakshinakannada.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/dang.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/darbhanga.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/davanagere.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/deoghar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/dhanbad.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/dharwad.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/dhubri.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/dumka.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/durg.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/eastdelhi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/eastgodavari.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/faridabad.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/fatehabad.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/gadag.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/ganderbal.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/gandhinagar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/garhwa.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/gaya.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/giridih.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/goalpara.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/golaghat.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/gopalganj.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/guntur.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/gurugram.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/hailakandi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/hamirpur.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/hazaribagh.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/hisar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/jammu.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/jamnagar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/jamtara.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/jehanabad.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/jhajjar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/jind.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/jorhat.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/junagadh.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kabirdham.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kaimurbhabua.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kaithal.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kalaburagi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kamrup.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kangra.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/karnal.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kathua.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/katihar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kheda.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kishtwar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/koderma.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kokrajhar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/korba.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/krishna.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kulgam.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kupwara.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kurnool.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kurukshetra.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/kutch.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/lakhimpur.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/lakhisarai.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/lohit.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/madhepura.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/madhubani.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/mehsana.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/morigaon.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/munger.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/nalanda.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/nalbari.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/narmada.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/navsari.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/nawada.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/newdelhi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/northandmiddleandaman.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/northdelhi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/northeastdelhi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/northgoa.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/northwestdelhi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/nuh.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/palwal.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/panchkula.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/panchmahals.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/panipat.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/patan.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/patna.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/porbandar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/prakasam.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/pulwama.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/purnia.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/raigarh.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/raipur.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/rajkot.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/rajnandgaon.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/rajouri.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/ramban.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/ranchi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/reasi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/rohtak.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/rohtas.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/sabarkantha.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/samba.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/saran.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/sheohar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/shopiyan.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/simdega.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/sirmaur.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/sirsa.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/siwan.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/solan.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/sonipat.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/southandaman.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/southdelhi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/southwestdelhi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/spsnellore.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/srinagar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/surat.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/tapi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/udhampur.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/una.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/vadodara.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/vaishali.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/valsad.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/westchamparan.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/westdelhi.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/westgodavari.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/models/yamunanagar.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/utils/detrend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/utils/make_samples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seq2seq/utils/read_dataset.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/filter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covid19predictor/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19predictor/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,62 +251,96 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-241297726">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.73" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="2" />
+          <entry key="js" value="1" />
+          <entry key="py" value="9" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="5" />
+          <entry key="html" value="520" />
+          <entry key="js" value="8" />
+          <entry key="py" value="596" />
+          <entry key="txt" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="520" />
+          <entry key="JavaScript" value="8" />
+          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="Python" value="596" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/covid19predictor/settings.py">
+        <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="75">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/static/js/filter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#317#326#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
+        <entry file="file://$PROJECT_DIR$/app/read_predictions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/templates/app/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/covid19predictor/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="114">
+              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -164,6 +358,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>::-webkit-input-placeholder</find>
+      <find>state</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -179,11 +374,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/static/js/search.js" />
-        <option value="$PROJECT_DIR$/app/districts.py" />
         <option value="$PROJECT_DIR$/app/urls.py" />
-        <option value="$PROJECT_DIR$/app/static/js/filter.js" />
         <option value="$PROJECT_DIR$/app/forms.py" />
-        <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/app/regions.py" />
         <option value="$PROJECT_DIR$/covid19predictor/local_settings.py" />
         <option value="$PROJECT_DIR$/settings/local.py" />
@@ -192,9 +384,16 @@
         <option value="$PROJECT_DIR$/covid19predictor/wsgi.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/covid19predictor/settings.py" />
-        <option value="$PROJECT_DIR$/app/static/css/main.css" />
-        <option value="$PROJECT_DIR$/app/templates/app/home.html" />
         <option value="$PROJECT_DIR$/app/templates/app/base.html" />
+        <option value="$PROJECT_DIR$/app/seq2seq/districts.txt" />
+        <option value="$PROJECT_DIR$/app/seq2seq/utils/read_dataset.py" />
+        <option value="$PROJECT_DIR$/app/seq2seq/predict.py" />
+        <option value="$PROJECT_DIR$/app/static/css/main.css" />
+        <option value="$PROJECT_DIR$/app/districts.py" />
+        <option value="$PROJECT_DIR$/app/read_predictions.py" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/app/templates/app/home.html" />
+        <option value="$PROJECT_DIR$/app/static/js/filter.js" />
       </list>
     </option>
   </component>
@@ -238,32 +437,7 @@
               <item name="covid19predictor" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="covid19predictor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="covid19predictor" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="covid19predictor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="covid19predictor" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="covid19predictor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="covid19predictor" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="covid19predictor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="covid19predictor" type="462c0819:PsiDirectoryNode" />
-              <item name="covid19predictor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,6 +450,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -303,10 +482,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24318182" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25133404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -320,7 +498,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -337,24 +515,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/static/js/search.js" />
-    <entry file="file://$PROJECT_DIR$/app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/covid19predictor/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/filter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -368,78 +532,123 @@
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/settings/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/settings/local.py" />
+    <entry file="file://$PROJECT_DIR$/settings/production.py" />
+    <entry file="file://$PROJECT_DIR$/covid19predictor/local_settings.py" />
+    <entry file="file://$PROJECT_DIR$/covid19predictor/asgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile" />
+    <entry file="file://$PROJECT_DIR$/app/seq2seq/districts.csv" />
+    <entry file="file://$PROJECT_DIR$/app/regions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3976">
+          <caret line="505" column="10" selection-start-line="505" selection-start-column="10" selection-end-line="505" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/seq2seq/districts.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="142" column="9" lean-forward="true" selection-start-line="142" selection-start-column="9" selection-end-line="142" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/covid19predictor/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/seq2seq/utils/read_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/covid19predictor/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-894">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/seq2seq/districts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="150" column="9" lean-forward="true" selection-start-line="150" selection-start-column="9" selection-end-line="150" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/districts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2412">
+          <caret line="323" column="1" selection-start-line="323" selection-start-column="1" selection-end-line="323" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/seq2seq/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+          <folding>
+            <element signature="e#39#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/read_predictions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/settings/local.py" />
-    <entry file="file://$PROJECT_DIR$/settings/production.py" />
-    <entry file="file://$PROJECT_DIR$/app/regions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="505" column="10" selection-start-line="505" selection-start-column="10" selection-end-line="505" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/covid19predictor/local_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/covid19predictor/asgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/covid19predictor/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/covid19predictor/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-          <folding>
-            <element signature="e#317#326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="75">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/base.html">
+    <entry file="file://$PROJECT_DIR$/app/static/js/filter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        <state relative-caret-position="228">
+          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
         </state>
       </provider>
     </entry>
