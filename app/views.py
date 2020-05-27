@@ -10,6 +10,9 @@ def home(request):
         context["predict"] = True
         context["state"] = request.POST.get('state-input')
         context["predictions"] = read_predictions(context["state"]).values.tolist()
+        context["confirmed"] = [row[2] for row in context['predictions']]
+        context["days"] = [row[0] for row in context['predictions']]
+
         # print(context["predictions"])
         return render(request, 'app/home.html', context)
     return render(request, 'app/home.html', context)

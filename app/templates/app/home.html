@@ -27,13 +27,16 @@
             {% endfor %}
             </tbody>
         </table>
-        <a href="{% url 'home' %}">
+
+        <h4 class="text-left">Line Plot for <span>{{ state }}</span></h4>
+        <div id="tester" class="my-5" style="width:900px;height:450px;"></div>
+        <a class="my-5" href="{% url 'home' %}">
             <button type="button" class="btn btn-light">Go Back</button>
         </a>
 
     {% else %}
 
-        <h4 class="mt-5">please select a state for which cases have to be predicted</h4>
+        <h4 class="mt-5">Please select a district get case count predictions</h4>
         <form autocomplete="off" method="post">
             {% csrf_token %}
             <input id="state-input" name="state-input" class="chosen-value" type="text" value=""
@@ -50,4 +53,34 @@
     {% endif %}
 
 
+{% endblock %}
+
+{% block plot %}
+    <script>
+        TESTER = document.getElementById('tester');
+
+        var trace3 = {
+            x: {{ days }},
+            y: {{ confirmed }},
+            mode: 'lines+markers'
+        };
+
+        var data = [trace3];
+
+        var layout = {
+            title: 'Predictions for Confirmed Cases',
+            name: 'District',
+            xaxis: {
+                title: 'DATES'
+            },
+            yaxis: {
+                title: '#CONFIRMED CASES'
+            },
+            {#plot_bgcolor:"black",#}
+            {#paper_bgcolor:"black",#}
+        };
+
+        Plotly.newPlot(TESTER, data, layout);
+
+    </script>
 {% endblock %}
